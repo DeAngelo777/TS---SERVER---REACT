@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // or another version of ECMAScript
+    "module": "ESNext", // or "CommonJS"
+    "lib": ["DOM", "ESNext"], // Ensures DOM types are included
+    "jsx": "react-jsx", // For React 17 and above, use "react" for React 16 or below
+    "strict": true, // Optional but recommended
+    "esModuleInterop": true, // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"], // Ensure you're including your source folder
+  "exclude": ["node_modules"]
+}
